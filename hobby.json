@@ -1,0 +1,278 @@
+{
+  "id": "d6eb8789-4ee6-4c73-84bb-a55b9acaa73a",
+  "name": "hobby",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "🎵"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "platform": "kik",
+          "condition": "",
+          "payload": {
+            "kik": {
+              "type": "link",
+              "url": "https://www.youtube.com/watch?v=4fvo_iOuSck"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "🎵"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "My favorite Singer is Arijit Singh . It has that peace in his voice."
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "platform": "telegram",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "[I just Love Arijit Song](https://www.youtube.com/watch?v=JK1fPt6gGsE).",
+              "parse_mode": "Markdown"
+            }
+          }
+        },
+        {
+          "type": "quick_reply",
+          "platform": "telegram",
+          "condition": "",
+          "replies": [
+            "About",
+            "Weakness",
+            "Strength",
+            "Resume"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "🎵"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "platform": "slack",
+          "condition": "",
+          "payload": {
+            "slack": {
+              "attachments": [
+                {
+                  "title": "Debussy - Claire de Lune",
+                  "title_link": "https://www.youtube.com/watch?v=4fvo_iOuSck"
+                }
+              ],
+              "text": ""
+            }
+          }
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "🎵"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "platform": "facebook",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "audio",
+                "payload": {
+                  "url": "https://www.youtube.com/watch?v=4fvo_iOuSck"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have a hobby",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "682d31b6-6013-4285-a8a3-3098ce936725",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how about your free time?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b47d309-aff8-4328-8412-d028d298471f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are your hobbies",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7f000de5-624a-44e9-a180-7e17c0a992d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk about your hobbies please",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4c61ac6a-7cbd-4ef2-ae47-a692d5d2e164",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about your hobbies",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cfcf18f9-ef20-45e0-986e-b2bd7c4cfd09",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you do in your free time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75a192d3-d24f-4b05-86bb-f61046479dbf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

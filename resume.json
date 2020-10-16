@@ -1,0 +1,220 @@
+{
+  "id": "8245d67f-8938-405f-b35e-a57d432b3f76",
+  "name": "resume",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "resume",
+      "affectedContexts": [
+        {
+          "name": "cv-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "kik",
+          "condition": "",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/ProfileBot_CV.jpg"
+        },
+        {
+          "type": "quick_reply",
+          "platform": "kik",
+          "condition": "",
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Rahul Singh Resume",
+          "imageUrl": "https://www.canva.com/design/DAEEBDdhf58/7hsilqBIWVVc13dYZnQxcg/view?utm_content=DAEEBDdhf58&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "quick_reply",
+          "platform": "telegram",
+          "condition": "",
+          "replies": [
+            "About",
+            "Strength",
+            "Weakness",
+            "Hobbies"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "slack",
+          "condition": "",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/ProfileBot_CV.jpg"
+        },
+        {
+          "type": "quick_reply",
+          "platform": "slack",
+          "condition": "",
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "facebook",
+          "condition": "",
+          "imageUrl": "https://dialogflow.com/docs/images/samples/for-agents/agent-store/ProfileBot_CV.jpg"
+        },
+        {
+          "type": "quick_reply",
+          "platform": "facebook",
+          "condition": "",
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "resume",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4aa222bc-8f97-44a3-8a42-be8998347845",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'd like to take a look at your resume",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cce95017-b083-48c3-919e-30188dd4e057",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show me your resume",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "de249e19-3000-4e80-a727-33845790cc7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have a resume",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91f42f37-f480-4cb7-831e-3d55c341f4d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "may I take a look at your resume",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f3e8fe5-ea31-4da3-91a4-563475abde90",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you show me your resume",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aea9e65a-2d31-40cd-b054-d7d4f242c6c5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

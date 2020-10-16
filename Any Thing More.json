@@ -1,0 +1,75 @@
+{
+  "id": "9578c609-6e51-40a4-9a27-9ad3ac40a2f0",
+  "name": "Any Thing More",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "anything else",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df5f9157-07f8-4fb4-b51a-16bd55c0e171",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "more things about you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0d99ec6-8a49-446d-90d1-3cb044eae418",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me more",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92e04a6c-a4c2-4f7c-8dfb-3fe29c7f0e7b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

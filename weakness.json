@@ -1,0 +1,249 @@
+{
+  "id": "c8415308-896d-4449-a8f8-a5ef2f80aa21",
+  "name": "weakness",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "weakness",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "😜"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "😇"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "😜"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "😇"
+          ]
+        },
+        {
+          "type": "quick_reply",
+          "platform": "telegram",
+          "condition": "",
+          "replies": [
+            "About Rahul",
+            "Strength",
+            "Hobbies",
+            "Resume"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "😜"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "😇"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "😜"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "😇"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have weak points",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6dce545a-6b19-46fb-b791-94997da48c3c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your biggest weakness",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94024742-091a-4152-933e-e34d6bc0db0b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you tell me about your biggest weakness",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "101560e3-5d9f-4c0f-937b-afbbc84c6f98",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about your weaknesses",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e57bc30-d2e6-45c8-a2e6-3e1442cb182a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are your weaknesses",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "88100259-aa56-4303-a3c3-0f34a395c47d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

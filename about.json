@@ -1,0 +1,241 @@
+{
+  "id": "ebe47679-4c4f-4289-8f39-f02c2359bd60",
+  "name": "about",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "about",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "My name is Bob. I am 25. I’m a professional florist. I like flowers and I like creating beautiful things.",
+            "I am Bob. I am 25 years old and I'm a professional florist. I like creating beautiful things and sharing them with the others."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "Here I am.",
+            "Here's how I look like.",
+            "That's me.",
+            "Here I am. How do you like me?"
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "kik",
+          "condition": "",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/ProfileBot_Bob.gif"
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "My name is Rahul Singh. I am a Data Science Intern having 4 months of experience on end to end machine learning projects and also experience of 18 months in the private Banking sector firm. I have completed my graduation in Engineering (Electronics and Communication). Currently working on a personality prediction system that would unfold the personality using a deep learning model based on graphology. Also worked on a Coke bot, Real-time object detection, deduplication, and many other projects.  You can Check My work on https://github.com/coderraa?tab=repositories"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "The chat bot I have made to whom you are talking can also send gif like this"
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "telegram",
+          "condition": "",
+          "imageUrl": "https://www.canva.com/design/DAEKPOBHNr4/P76Bl3IxwpD8rdVSAQxsEA/view?utm_content=DAEKPOBHNr4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+        },
+        {
+          "type": "quick_reply",
+          "platform": "telegram",
+          "condition": "",
+          "replies": [
+            "About Rahul",
+            "Weakness",
+            "Strength",
+            "Resume"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "My name is Bob. I am 25. I’m a professional florist. I like flowers and I like creating beautiful things.",
+            "I am Bob. I am 25 years old and I'm a professional florist. I like creating beautiful things and sharing them with the others."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "Here I am.",
+            "Here's how I look like.",
+            "That's me.",
+            "Here I am. How do you like me?"
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "slack",
+          "condition": "",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/ProfileBot_Bob.gif"
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "My name is Bob. I am 25. I’m a professional florist. I like flowers and I like creating beautiful things.",
+            "I am Bob. I am 25 years old and I'm a professional florist. I like creating beautiful things and sharing them with the others."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "Here I am.",
+            "Here's how I look like.",
+            "That's me.",
+            "Here I am. How do you like me?"
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "facebook",
+          "condition": "",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/ProfileBot_Bob.gif"
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "About Rahul Singh",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "35406595-4a7f-4375-8168-19692f0116c8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "about",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "48374ac8-d3f8-4358-8d79-a2feddee6fa3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "about rahul",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d369555a-7f58-475e-a101-505893c4dd71",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you tell me a little about yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f58c99eb-23bd-4843-8532-915c7a05c13a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's talk about you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9953d50-96d8-4c50-a072-6231c88bd381",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you tell me about yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e097d731-48e7-462e-b342-2d2c9da5e4ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afb1d461-7954-40ad-bb32-7c91c0eb1856",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk about yourself please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6774dca9-94c1-43fd-a0cb-b2f2874d31e8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

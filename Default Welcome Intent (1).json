@@ -1,0 +1,185 @@
+{
+  "id": "899cc80e-a7ec-417d-bc5b-697e506e0389",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "slack": true,
+        "telegram": true,
+        "kik": true
+      },
+      "messages": [
+        {
+          "type": "quick_reply",
+          "platform": "kik",
+          "condition": "",
+          "replies": [
+            "About yourself",
+            "Strengths",
+            "Weaknesses",
+            "CV",
+            "Hobby"
+          ]
+        },
+        {
+          "type": "quick_reply",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Choose from the following",
+          "replies": [
+            "About Rahul Singh",
+            "Strengths",
+            "Weakness",
+            "Hobby"
+          ]
+        },
+        {
+          "type": "quick_reply",
+          "platform": "slack",
+          "condition": "",
+          "replies": [
+            "About yourself",
+            "Strengths",
+            "Weaknesses",
+            "CV",
+            "Hobby"
+          ]
+        },
+        {
+          "type": "quick_reply",
+          "platform": "facebook",
+          "condition": "",
+          "replies": [
+            "About yourself",
+            "Strengths",
+            "Weaknesses",
+            "CV",
+            "Hobby"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi I am Rahul Singh Bot. You can chat with me."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76a41b8c-3219-4f9c-9592-158a632cac72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bcad989-c038-421b-b476-4abbe9ef8d67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good morning",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df6c85e2-9a0f-46fb-b9d5-aa0cb94aee49",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25e08974-aa63-48c3-8f27-b20c465ce8da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a31e292a-885a-4c54-8651-baf9f13db58f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how are you doing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74cdd6e9-29b2-4350-964f-c0cf875ef8ab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d0144ce-987c-49a5-888d-129f75ab4672",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

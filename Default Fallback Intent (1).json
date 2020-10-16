@@ -1,0 +1,257 @@
+{
+  "id": "62f53181-2f82-4967-a8ca-fec05c13c12c",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": true,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "I'm sorry. I'm having trouble understanding the question.",
+            "I think I may have misunderstood your last statement.",
+            "I'm sorry. I didn't quite grasp what you just said.",
+            "I don't think I'm qualified to answer that yet.",
+            "I'm a bit confused by that last part.",
+            "I'm not totally sure about that.",
+            "I'm not sure I follow.",
+            "I'm afraid I don't understand.",
+            "I'm a bit confused."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "I'm sorry. I'm having trouble understanding the question.",
+            "I think I may have misunderstood your last statement.",
+            "I'm sorry. I didn't quite grasp what you just said.",
+            "I don't think I'm qualified to answer that yet.",
+            "I'm a bit confused by that last part.",
+            "I'm not totally sure about that.",
+            "I'm not sure I follow.",
+            "I'm afraid I don't understand.",
+            "I'm a bit confused."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "I'm sorry. I'm having trouble understanding the question.",
+            "I think I may have misunderstood your last statement.",
+            "I'm sorry. I didn't quite grasp what you just said.",
+            "I don't think I'm qualified to answer that yet.",
+            "I'm a bit confused by that last part.",
+            "I'm not totally sure about that.",
+            "I'm not sure I follow.",
+            "I'm afraid I don't understand.",
+            "I'm a bit confused."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "I'm sorry. I'm having trouble understanding the question.",
+            "I think I may have misunderstood your last statement.",
+            "I'm sorry. I didn't quite grasp what you just said.",
+            "I don't think I'm qualified to answer that yet.",
+            "I'm a bit confused by that last part.",
+            "I'm not totally sure about that.",
+            "I'm not sure I follow.",
+            "I'm afraid I don't understand.",
+            "I'm a bit confused."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm sorry. I'm having trouble understanding the question.",
+            "I think I may have misunderstood your last statement.",
+            "I'm sorry. I didn't quite grasp what you just said.",
+            "I don't think I'm qualified to answer that yet.",
+            "I'm a bit confused by that last part.",
+            "I'm not totally sure about that.",
+            "I'm not sure I follow.",
+            "I'm afraid I don't understand.",
+            "I'm a bit confused."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How stupid u arr",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09353115-84aa-4c1d-9917-fc058febb3dd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hahha",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53d9b99a-ec31-4e01-8859-137af9545954",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have any education",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae62223e-2880-4042-8f8b-5c676d6f3dcc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have kids",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "443d613d-41ab-40af-89be-79bec3eeec53",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's talk about politics",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a4f44c6-abec-4463-8069-04a317836c83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's talk about weather",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f775a2b0-a8e1-41bf-a76b-b2ea53087580",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you show me your house",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c2a5e9ab-3d4d-4195-983c-d4357d9e3f2e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your biggest fear",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70eb6323-a34a-4bfe-80a6-3b414e628547",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your biggest dream",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6f76218-78f1-4846-a7e1-49836748c205",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you show your passport",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53433643-cf81-4424-b93d-bffe1f1b09f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "may I see your photo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe782b84-3e2e-4a93-a368-fbeb83173ed4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have free time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de926ee2-9c61-410a-bcd0-65816390c544",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

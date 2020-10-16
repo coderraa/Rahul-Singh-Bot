@@ -1,0 +1,201 @@
+{
+  "id": "a2b9ab87-07af-4b09-8701-ef970306b8db",
+  "name": "strength",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "strength",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "My biggest strength is my passion for the job. I love creating beautiful things that make people happy.",
+            "My passion for the job is definitely my biggest strength. It's great when you can share beautiful things with the others.",
+            "I love sharing my joy with people. It's wonderful when you are able to cheer up a person with something beautiful."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "kik",
+          "condition": "",
+          "speech": [
+            "☀️"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "My biggest strength is my passion for the job. I love creating beautiful things that make people happy.",
+            "My passion for the job is definitely my biggest strength. It's great when you can share beautiful things with the others.",
+            "I love sharing my joy with people. It's wonderful when you are able to cheer up a person with something beautiful."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "☀️"
+          ]
+        },
+        {
+          "type": "quick_reply",
+          "platform": "telegram",
+          "condition": "",
+          "replies": [
+            "About Rahul",
+            "Weakness",
+            "Resume",
+            "Hobbies"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "My biggest strength is my passion for the job. I love creating beautiful things that make people happy.",
+            "My passion for the job is definitely my biggest strength. It's great when you can share beautiful things with the others.",
+            "I love sharing my joy with people. It's wonderful when you are able to cheer up a person with something beautiful."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "slack",
+          "condition": "",
+          "speech": [
+            "☀️"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "My biggest strength is my passion for the job. I love creating beautiful things that make people happy.",
+            "My passion for the job is definitely my biggest strength. It's great when you can share beautiful things with the others.",
+            "I love sharing my joy with people. It's wonderful when you are able to cheer up a person with something beautiful."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "facebook",
+          "condition": "",
+          "speech": [
+            "☀️"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about your strengths",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f57b803-e775-4726-8cb7-606da9a24a1b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are your strengths",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "160a892b-d451-4944-b136-7e296ccb0fdd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are some of your strengths",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afbfd505-e90f-4fb3-9412-6130ce2576aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have strong points",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fca73415-f964-4fc4-bd38-486e3da8fd2d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you tell me about your biggest strength",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2a441d4c-da28-4600-b07e-ffaae15d637c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what would you say are your strengths",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b488d606-a28b-4080-b142-95e8596a8d99",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your biggest strength",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d2d3b85a-b616-4b2b-89dd-34f79a99c4ec",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
